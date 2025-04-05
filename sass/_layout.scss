@@ -1,0 +1,8 @@
+main, .burger-open {
+    overflow: hidden;
+ }
+
+/* Suppression des images orchid et sunflowers du thème parent */
+.site-footer::before, .site-footer::after {
+    display: none;
+}

@@ -1,0 +1,57 @@
+.main-character {
+  position: relative;
+
+  h3 {
+    max-width: 1440px;
+    position: absolute;
+    left: 460px;
+    top: -2px;
+    font-size: 32px !important;
+    z-index: 10;
+  }
+}
+
+
+
+  .swiper-slide {
+    
+    background-position: center;
+    background-size: cover;
+    width: 350px !important;
+    height: 350px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 30px; 
+    padding-bottom: 80px;
+    padding-left: 30px;
+    
+    margin: auto;
+
+    figure {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    z-index: 10;
+  }

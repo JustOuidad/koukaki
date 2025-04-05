@@ -1,0 +1,330 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Section bannière */
+    .banner {
+        .logo {
+            top: 325px;
+            left: 225px;
+        }
+    }
+
+    .main-navigation ul {
+        margin-left: 205px;
+    }
+
+    .navbar-burger {
+        margin-left: 125px;
+    }
+
+    .burger-open {
+        width: 825px;
+
+        &__logo {
+            left: 325px;
+        }
+
+        &__sun-flower {
+            top: 115px;
+            left: 530px;
+            width: 165px;
+            height: 165px;
+          }
+        
+        &__petal-flower {
+            top: 530px;
+        }
+        
+        &__pink-flower {
+            top: 320px;
+            left: 725px;
+        }
+        
+        &__hibiscus-flower {
+            top: 820px;
+            left: 555px;
+            width: 420px;
+            height: 420px;
+        }
+        
+        &__blue-cat {
+            top: 280px;
+            left: 75px;
+        }
+        
+        &__orange-cat {
+            top: 795px;
+            left: 25px;
+        }
+        
+        &__black-cat {
+            left: 565px;
+        }
+    }
+
+    /* Section  menu-burger*/
+    .main-character h3 {
+        margin-left: -130px;
+      }
+
+    .swiper {
+        margin-left: 1.5em !important;
+        
+        &-slide {
+            width: 200px !important;
+            height: 200px;
+        }
+    }
+
+    /* Section story et place */
+    .story #place {
+        min-height: 0;
+
+        div {
+            display: block;
+            margin-left: 2em !important;
+            margin-top: 30px;
+        }
+
+        h3 {
+            text-align: left;
+            background-position: left;
+            margin-left: 30px;
+            padding: 1em 1.3em;
+        }
+
+        .big-cloud {
+            width: 200px;
+            height: 100px;
+            top: -245px;
+            left: 600px;
+        }
+
+        .little-cloud {
+            top: -230px;
+            left: 210px;
+        }
+    }
+
+    #studio h2 {
+        &::before {
+            left: -1.7em;
+        }
+    }
+
+    /* Section nomination-oscar */
+    .nomination-oscar {
+        margin-left: 0;
+
+        &::before {
+            top: -175px;
+            left: -100px;
+        }
+
+        &__titre {
+            font-size: 20px;
+            padding: 1.8em 3em;
+            line-height: 35px;
+        }
+
+        img {
+            margin-top: 20px;
+            margin-right: 0;
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .banner {
+        min-height: 0;
+        height: 425px;
+
+        &__video {
+            display: none;
+        }
+
+        .logo {
+            top: 185px;
+            left: 110px;
+            animation: none;
+        }
+    }
+
+    .main-navigation ul {
+        margin-left: 0px;
+        margin-top: 15px;
+
+        .site-title {
+            display: block;
+            font-size: 15px;
+        }
+    }
+
+    .navbar-burger {
+        margin-left: 55px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .burger-open {
+
+        ul {
+            text-align: justify;
+            margin-left: 110px;
+            margin-bottom: 0;
+        }
+
+        li {
+            font-size: 30px;
+            line-height: 100px;
+        }
+
+        p {
+            text-align: justify;
+            margin-top: 20px;
+            margin-left: 135px;
+        }
+
+        &__logo {
+            left: 120px;
+            top: 80px;
+            width: 155px;
+            height: 95px;
+        }
+
+        &__blue-cat {
+            top: 155px;
+            left: 265px;
+        }
+
+        &__petal-flower {
+            top: 530px;
+            left: 15px;
+        }
+    }
+
+
+    /* Section  menu-burger*/
+    .main-character h3 {
+        text-align: center;
+    }
+
+    .swiper {
+        margin-left: 0 !important;
+        
+        &-slide {
+            width: 200px !important;
+            height: 200px;
+        }
+    }
+
+    /* Section story et place */
+    .story #place {
+        min-height: 0;
+
+        div {
+            display: block;
+            margin-left: 2em !important;
+            margin-top: 310px;
+        }
+
+        h3 {
+            text-align: left;
+            background-position: left;
+            margin-left: 30px;
+            padding: 1em 1.3em;
+        }
+    }
+
+    #studio h2 {
+        font-size: 2em;
+    }
+
+    /* Section nomination-oscar */
+    .nomination-oscar {
+        margin-left: 0;
+
+        &__container {
+            flex-direction: column;
+        }
+
+        &__titre {
+            font-size: 15px;
+            padding: 1.8em 4em;
+            line-height: 25px;
+            margin-top: 40px;
+        }
+
+        img {
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar-burger {
+        margin-left: 15px;
+    }
+
+    .burger-open {
+        ul {
+            margin-left: 60px;
+        }
+
+        &__orchid-flower {
+            top: 100px;
+        }
+
+        &__petal-flower {
+            top: 590px;
+        }
+    }
+
+    /* Section story et place */
+    .story #place h3 {
+        text-align: left;
+        background-position: left;
+        margin-left: 40px;
+        padding: 1em 1em;
+    }
+
+    #studio h2 {
+        font-size: 1.95em;
+    }
+
+    .nomination-oscar {
+        &__titre {
+            padding: 1.8em 2em;
+        }
+    }
+}
+@media screen and (max-width: 330px) {
+    
+    .main-character {
+        position: relative;
+      
+        h3 {
+          left: 530px;
+          top: -2px;
+          font-size: 28px;
+          z-index: 10;
+        }
+        .swiper-slide {
+            width: 100% !important;  
+            height: auto;  
+            margin-right: 50px;  
+            margin-left: 10px;
+        
+            figcaption {
+              font-size: 14px !important;  
+            }
+          }
+        
+          .swiper-wrapper {
+            flex-direction: column;  
+          }
+        
+          .swiper-button-next,
+          .swiper-button-prev {
+            font-size: 20px;  
+          }
+        }}

@@ -1,0 +1,50 @@
+@mixin rotation-flowers {
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0);
+      }
+  
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  
+    animation: rotate 15s infinite linear;
+  }
+
+
+.story h2 {
+
+    &::after {
+        height: 155px;
+        @include rotation-flowers();
+    }
+}
+
+.story__article, .nomination-oscar, .site-footer ul {
+    &::after {
+        @include rotation-flowers();
+    }
+}
+
+.nomination-oscar {
+    &::before {
+        @include rotation-flowers();
+    }
+}
+
+#studio h2 {
+
+    &::before {
+        @include rotation-flowers();
+    }
+
+    &::after {
+        height: 108px;
+        @include rotation-flowers();
+    }
+}
+
+
+

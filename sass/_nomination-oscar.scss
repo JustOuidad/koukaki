@@ -1,0 +1,43 @@
+.nomination-oscar {
+    position: relative;
+    margin-top: 120px;
+    margin-left: 175px;
+
+    &::before {
+        content: url('./assets/images/Sunflower.png');
+        position: absolute;
+        left: -105px;
+        top: -135px;
+    }
+
+    &::after {
+        content: url('./assets/images/orchid.png');
+        position: absolute;
+        right: -70px;
+        top: -130px;
+        z-index: -1;
+    }
+
+    &__container {
+        display: flex;
+    }
+
+    &__titre {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding: 1.8em 1.6em;
+        line-height: 45px;
+        text-align: left;
+        background-image: url('./assets/images/oscar-background.png');
+    }
+
+    img {
+        margin-top: 50px;
+        width: 278px;
+        height: 130px;
+        margin-right: 120px;
+    }
+
+ }

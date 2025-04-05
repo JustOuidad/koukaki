@@ -1,0 +1,32 @@
+#place {
+    display: flex;
+    background-image: url('./assets/images/imagePlace.png') !important;
+    width: 100%;
+    min-height: 699px;
+    background-size: cover;
+    margin-top: -100px;
+
+    div {
+        margin-left: 10em !important;
+        margin-top: 100px;
+    }
+
+    .big-cloud {
+        width: 316px;
+        height: 122px;
+        position: relative;
+        top: -380px;
+        left: 880px;
+        filter: blur(10px);
+        z-index: 1;
+    }
+
+    .little-cloud {
+        width: 142px;
+        height: 55px;
+        top: -330px;
+        left: 650px;
+        position: relative;
+        filter: blur(12px);
+    }
+}
